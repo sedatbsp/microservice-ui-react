@@ -1,4 +1,4 @@
-import { CLEAR_CURRENT_USER, SET_CURRENT_USER } from "../Types";
+import { CLEAR_CURRENT_USER, SET_CURRENT_USER } from "../types";
 
 const userReducer = (state = {}, action) => {
     switch (action?.type) {
