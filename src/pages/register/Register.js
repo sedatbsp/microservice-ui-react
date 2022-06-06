@@ -64,7 +64,7 @@ const Register = () => {
             <div className="card ms-auto me-auto p-3 shadow-lg custom-card">
                 <FontAwesomeIcon icon={faUserCircle} className="ms-auto me-auto user-icon" />
                 {errorMessage &&
-                    <div className="alert alert-danger">
+                    <div className="alert alert-danger mt-3">
                         {errorMessage}
                     </div>
                 }
